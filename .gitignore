@@ -1,0 +1,8 @@
+.DS_Store
+.Rhistory
+.idea/
+changed_files.txt
+deleted_files.txt
+.sass-cache/
+Gemfile.lock
+_site/
