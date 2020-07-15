@@ -7,7 +7,7 @@ Leah Wasser, Alana Faller, Maxwell Joseph, Nathan Korinek, Lauren Herwehe
 
 ## Development -- EarthDataScience.org Website
 
-This site is made with Jekyll, the Minimal Mistakes theme, and hosted using
+This site is made with Jekyll, the [Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/), and hosted using
 GitHub pages. To work locally on the site:
 
 
