@@ -1,4 +1,4 @@
-Welcome to the EDS Development Repo
+# Welcome to the EDS Development Repo
 
 This is where we are redesigning the EDS website.
 
@@ -16,7 +16,7 @@ GitHub pages. To work locally on the site:
 You can use this repository to dynamically build and serve / view the EarthDataScience.org
 Website locally using the following steps.
 
-### 1. Fork and Clone the earthlab.github.io Repo
+## 1. Fork and Clone the earthlab.github.io Repo
 
 To begin, fork the `earthlab/eds-dev` repo (if you are working on a fork)
 If you are earth lab staff you likely want to directly clone this repo to view
@@ -28,13 +28,36 @@ $ git clone ${The repo's git URL}
 $ cd eds-dev
 ```
 
-### 2. Install All Gems
+## 2. Install Ruby Development Environment
 
 The site runs on Jekyll and ruby. To build the site you first need to install
 all of the needed tools. NOTE: this process can be a bit finicky for Windows
 users but we did our best to document the workflow!
 
-#### Installation for Windows Users
+###  MAC OS Installation Instructions
+
+```
+# Install the correct version of each gem specified in the gem file. Run this IN the cloned directory
+$ bundle
+```
+
+### Linux Installation Instructions
+
+1. install ruby version 2.5 or 2.6
+
+`$ sudo apt-get ruby-dev`
+
+2. Next, install the bundler using admin permissions:
+
+`$ sudo gem install bundler`
+
+3. CD into the earthlab.github.io repository and run:
+
+`$ sudo bundle install`
+
+You are now ready to build the website locally.
+
+### Installation for Windows Users
 
 1. Install Ruby
 
@@ -88,29 +111,6 @@ be required in the future!
 *Note:* Some users still had issues with path names after running the above code,
 so as a last resort you can remove the `images` folder from the main directory
 to make the website build. We are working on a fix for this!
-
-#### Linux Installation Instructions
-
-1. install ruby version 2.5 or 2.6
-
-`$ sudo apt-get ruby-dev`
-
-2. Next, install the bundler using admin permissions:
-
-`$ sudo gem install bundler`
-
-3. CD into the earthlab.github.io repository and run:
-
-`$ sudo bundle install`
-
-You are now ready to build the website locally.
-
-####  MAC OS Installation Instructions
-
-```
-# Install the correct version of each gem specified in the gem file. Run this IN the cloned directory
-$ bundle
-```
 
 ## 3. Build the Site Locally and Start Developing
 
