@@ -1,14 +1,14 @@
 # main links links
 main:
 
-  - title: "Tutorials"
+  - title: "Skills"
     url: /tutorials/
 
   - title: "Courses"
     url: /courses/
 
-  - title: "Workshops"
-    url: /workshops/
+  # - title: "Workshops"
+  #   url: /workshops/
 
   - title: "Tools"
     url: /tools/
@@ -16,8 +16,8 @@ main:
   - title: "Blog"
     url: /blog/
 
-  - title: "About"
-    url: /about/
+  # - title: "About"
+  #   url: /about/
 
 
 open-science:

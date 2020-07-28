@@ -1,0 +1,55 @@
+// This is what I changed. Need to make it "real code" now
+
+// $nav-height: 4em !default;
+// $masthead-link-color: #fff !default;
+// $masthead-link-color-hover: mix(#fff, $primary-color, 25%) !default;
+// $nav-border-color:#000 !default;
+// $nav-background-color:#000 !default;
+//   &.site-title {
+//       margin-left: 0;
+//       // max-width: 20%;
+//       max-width:9rem;
+//     }
+//   }
+
+// $masthead-link-color: #5B4D8C;
+// $masthead-link-color-hover: mix(#5B4D8C, $primary-color, 25%);
+
+.greedy-nav{
+	min-height: 4em;
+
+	a{
+		color:#fff;
+
+		&:hover{
+			// color:mix(#fff, #000, 25%);
+			color: #91F2E9;
+			text-decoration:none;
+			border-bottom: 1px solid #91F2E9;
+		}
+
+		&.site-title{
+			max-width: 9rem;
+			color:#fff;
+			border-bottom:none;
+		}
+		&.site-logo{
+			border-bottom:none;
+		}
+	}
+}
+
+.masthead{
+	border-bottom: 1px solid #000;
+	background-color:#000;
+}
+
+// This doesn't change the hover border on the nav (which is what I want to do)
+// @include breakpoint(max-width $large - 1px) {
+//     label {
+//     	&:hover {
+//     		border-color: red;
+//     	}
+//     }
+// }
+
